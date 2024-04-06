@@ -24,7 +24,7 @@ main{
 /* contenitori */
 .container-full{
     max-width: 100vw;
-    padding: 50px 0;
+    padding-top: 50px;
     margin: 0 auto;
 }
 
@@ -124,6 +124,10 @@ main{
     display: flex;
 }
 
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
 .text-center {
     text-align: center;
 }
@@ -136,6 +140,9 @@ main{
     color: blue;
 }
 
+.color-brown {
+    color: rgb(124, 15, 48);
+}
 .underlined {
     text-decoration: underline;
 }
@@ -150,6 +157,10 @@ main{
 
 .font-bolder{
     font-weight: bolder;
+}
+
+.f-size-45 {
+    font-size: 45px;
 }
 /* FINE CLASSI DI UTILITY */
 
@@ -352,7 +363,8 @@ input+label{
     max-width: 100%;
 }
 
-.btn-transparent {
+.btn-white {
+    background-color: white;
     display: inline-block;
     text-decoration: none;
     color: grey;
@@ -372,4 +384,118 @@ input+label{
 
 .operations div{
     line-height: 1.4;
+}
+
+/* SQUARE SECTION */
+
+.square {
+    width: calc(100% / 2);
+}
+
+.square-section {
+    display: flex;
+}
+
+.square {
+    width: calc(100% / 3);
+    height: calc(100vw / 3);
+    background-color: rgb(233, 233, 233);
+}
+
+.height-full {
+    height: 100%;
+}
+
+.small-square {
+    width: 50%;
+    height: 50%;
+    text-align: center;
+}
+
+.small-square img{
+    width: 50%;
+    filter:invert();  
+}
+
+.designit {
+    background-color: lightgreen;
+    border: 15px solid rgb(195, 235, 195);
+}
+
+.designit div {
+    padding: 42% 0;
+}
+
+.u-arizona {
+    background-color: rgb(97, 30, 41);
+}
+
+.u-arizona div {
+    padding: 30% 0;
+}
+
+.u-florida {
+    background-color: rgb(0, 153, 255);
+}
+
+.u-florida div {
+    padding: 45% 0;
+}
+
+.topps {
+    background-color: red;
+}
+
+.topps div {
+    padding: 38% 0;
+}
+
+.world-bicycle-relief {
+    background-color: rgb(189, 0, 0);
+}
+
+.world-bicycle-relief div {
+    padding: 41% 0;
+}
+
+.hearst-corp {
+    background-color: lightblue;
+}
+
+.hearst-corp div {
+    padding: 47% 0;
+}
+
+.lonely-planet {
+    background-color: blue;
+}
+
+.lonely-planet div {
+    padding: 37% 0;
+}
+
+.clear-channel {
+    background-color: rgb(255, 217, 0);
+}
+
+.clear-channel div{
+    padding: 33% 0;
+}
+
+.square-text {
+    padding: 50px;
+}
+
+.square-text img{
+    width: 40%;
+}
+
+.square-text hr {
+    color: rgb(216, 215, 215);
+    margin: 40px 0;
+    width: 15%;
+}
+
+.square-text p{
+    margin-bottom: 50px;
 }
