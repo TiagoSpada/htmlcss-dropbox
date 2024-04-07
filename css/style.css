@@ -73,9 +73,11 @@ main{
 
 .col-25{
     width: 25%;
-    background-color: orange;
 }
 
+.col-20 {
+    width: 20%;
+}
 /* fine colonne */
 /* FINE CLASSI DI LAYOUT */
 
@@ -161,6 +163,10 @@ main{
 
 .f-size-45 {
     font-size: 45px;
+}
+
+.margin-right-50 {
+    margin-right: 50px;
 }
 /* FINE CLASSI DI UTILITY */
 
@@ -498,4 +504,60 @@ input+label{
 
 .square-text p{
     margin-bottom: 50px;
+}
+
+/* FINE SQUARE SECTION */
+
+
+.questions {
+    margin-top: 50px;
+    line-height: 5;
+}
+.questions ul{
+    list-style: none;
+}
+
+.questions li{
+    border-top: 1px solid black;
+    font-weight: bold;
+}
+
+.questions li:last-child {
+    border-bottom: 1px solid black;
+}
+
+/* INIZIO FOOTER */
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 50px 0;
+}
+
+.content-footer {
+    line-height: 2.2;
+    font-size: 14px;
+}
+
+.content-footer h2 {
+    font-size: 25px;
+    margin-bottom: 25px;
+}
+
+.content-footer ul {
+    list-style: none;
+    padding-bottom: 50px;
+}
+
+.content-footer hr {
+    width: 10%;
+    margin-bottom: 20px;
+}
+
+.content-footer i:first-child{
+    margin-right: 10px;
+}
+
+.content-footer i:last-child{
+    margin-left: 10px;
 }
